@@ -38,7 +38,7 @@ export default {
         if (storedSensors) {
           sensors.value = JSON.parse(storedSensors);
         } else {
-          const response = await axios.get('https://file.notion.so/f/f/216de177-6269-4124-912b-88f16b5e3e0f/c1b024a9-51d6-46c3-a87c-6518bd6f7ffd/events.json?id=e7861165-7c96-49e9-b07c-4019ded7c4c2&table=block&spaceId=216de177-6269-4124-912b-88f16b5e3e0f&expirationTimestamp=1707062400000&signature=G4-mWnX1Jds2d3GphNXAer8ZBDhYOjIckUWr9_lvHfg&downloadName=events.json');
+          const response = await axios.get('https://file.notion.so/f/f/216de177-6269-4124-912b-88f16b5e3e0f/c1b024a9-51d6-46c3-a87c-6518bd6f7ffd/events.json?id=e7861165-7c96-49e9-b07c-4019ded7c4c2&table=block&spaceId=216de177-6269-4124-912b-88f16b5e3e0f&expirationTimestamp=1707249600000&signature=NCi6HgonFO2-w5rgwidL-02f0HwMLxSVLX0UGLPWMUw&downloadName=events.json');
           sensors.value = response.data;
           saveSensorsToLocalStorage();
         }

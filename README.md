@@ -1,7 +1,38 @@
-# Vue 3 + Vite
+# Название проекта
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+working-with-sensors
 
-## Recommended IDE Setup
+## Описание
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Реализация вывода списка товаров с и возможностью добавления/удаления товаров в списке.
+
+## Требования
+
+- Node.js (v14.0.0 или выше)
+- npm или yarn
+
+## Установка
+
+1. Клонируйте репозиторий:
+
+git clone https://github.com/ayalenskaya/product-list-page.git
+
+2. Перейдите в директорию проекта:
+
+cd product-list-page
+
+3. Установите зависимости:
+
+npm install
+
+# или
+
+yarn install
+
+4. Установите зависимости:
+
+npm install
+
+# или
+
+yarn install
